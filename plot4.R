@@ -29,7 +29,7 @@ plot4 <- function() {
     lines(xdates, subm3, col="blue")
     legend("topright", legend=c("Sub_metering_1", "Sub_metering_2",
                                 "Sub_metering_3"),
-           col=c("black", "red", "blue"), lwd=.75, cex=.75)
+           col=c("black", "red", "blue"), lwd=.75, cex=.75, bty="n")
     
     # fourth
     plot(xdates, g_reactive_pwr, type="l", ylab="Global_reactive_power",
